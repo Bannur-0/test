@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Irish Grover', cursive;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background: url('../img/bg-1.webp') center/cover no-repeat fixed;
+}
+.main_top{
+    max-width: 100%;
+    height: 5vh;
+    padding: 1% 4.5%;
+}
+.main_cold{
+    width: 120px;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    padding: 10px 5px;
+    border-radius: 25px;
+    box-sizing: border-box;
+}
+.main_cold p{
+    color: white;
+    margin: 0;
+}
+.main_body{
+    display: flex;
+    height: 90.9vh;
+}
+.main_left{
+    width: 50%;
+    height: auto;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.main_board_body{
+    width: 25rem;
+    height: 34rem;
+    background: url('../img/board-2.webp') center/cover no-repeat;
+    margin-right: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.body_hero_cont{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 20rem;
+    position: relative;
+}
+.body_hero{
+    width: 100px;
+    height: 110px;
+    background: url('../img/card-hero.webp') center/cover no-repeat;
+    padding: 5px;
+    position: relative;
+}
+.hero{
+    width: 55%;
+    height: 70%;
+    position: absolute;
+    background: url('../img/hero.webp') center/cover no-repeat;
+    left: 24%;
+    top: 10%;
+    z-index: 2;
+}   
+.hero_weap{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    background: url('../img/box-weapon.webp') center/cover no-repeat;
+    margin-top: 60%;
+    margin-left: 70%;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero_weap img{
+    width: 70%;
+    height: 70%;
+}
+/*  */
+.body_btn_cont{
+    width: 35%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 2rem;
+    left: 0;
+}
+.btn_board{
+    width: 60px;
+    height: 60px;
+    background: url('../img/circle.webp') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding-bottom: .5rem;
+    padding-left: .2rem;
+}
+.btn_board img{
+    width: 60%;
+    height: 60%;
+    margin: auto;
+}
+/*  */
+.main_right{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.levels_cont{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.levels_arrow_left{
+    width: 30%;
+    height: 11vh;
+    cursor: pointer;
+}
+.levels_arrow_right{
+    width: 30%;
+    height: 11vh;
+    transform: rotateY(180deg);
+}
+.levels{
+    width: 30%;
+    height: 16vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.levels img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.level{
+    font-size: 3rem;
+    z-index: 3;
+    color: white;
+}
+.cont_play_btn{
+    width: 100%;
+    height: 30vh;
+}
+.cont_play_btn a{
+    text-decoration: none;
+}
+.btn_play{
+    width: 50%;
+    height: 60%;
+    background: url(../img/button-img.webp) center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    margin: 3rem auto;
+}
+.btn_play h1{
+    -webkit-text-stroke: 1px white;
+    font-weight: bold;
+    font-size: xx-large;
+}
+.villains_cont{
+
+    width: 100%;
+    height: 20vh;
+    display: flex;
+   align-items: center;
+   justify-content: center; 
+}
+.villain_pers{
+    width: 22%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bg_vilain{
+    width: 70px;
+    height: 70px;
+    background: url('../img/card-dark.webp') center/cover no-repeat;
+}

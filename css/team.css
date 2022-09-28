@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Irish Grover', cursive;
+}
+.main{
+    max-width: 100%;
+    height: 100vh;
+    background: url('../img/bg-1.webp') center/cover no-repeat  ;
+}
+.main_top{
+    max-width: 100%;
+    height: 8vh;
+    padding: .5% 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.back{
+    height: 100%;
+    width: 4rem;
+}
+.back img{
+    width: 100%;
+}
+.gold_cont{
+    width: 10rem;
+    height: 100%;
+}
+.gold{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50rem;
+}
+.gold p{
+    margin: 0;
+    color: white;
+}
+.main_bottom{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    position: relative;
+}
+.btom_body{
+    width: 60%;
+    height: 100%;
+    background-color: aqua;
+    background: url('../img/board-big.webp') center/cover no-repeat;
+    padding: 1% ;
+    box-sizing: border-box;
+    position: relative;
+}
+.title{
+    width: 100%;
+    height: 10vh;
+    position: relative;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title p{
+    color: white;
+    -webkit-text-stroke: 1px black;
+    font-size: xx-large;
+    margin: 0;
+    margin-top: auto;
+}
+.team_icon{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right:  2rem;
+    bottom: 0;
+}
+.team_icon img{
+    width: 100%;
+    height: 100%;
+}
+.cont_body{
+    width: 90%;
+    height: 70vh;
+    margin: auto;
+    overflow: auto;
+}
+.cont_team{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.cont_hero{
+    width: 20%;
+}
+.btn_hero{
+    width: 140px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('../img/card-hero.webp') center/cover no-repeat;
+    transition: .5s;
+}
+.hero_select:active{
+    margin-top: 15px;
+}
+.btn_hero img{
+    width: 70%;
+    height: 70%;
+    width: auto;
+    margin-bottom: 10%;
+}
+.cont_weap{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn_weap{
+    border: 0;
+    background-color: rgba(0, 0, 0, 0);
+    width: 100px;
+    height: 100px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Irish Cover',cursive;
+    transition: .5s;
+}
+.btn_weap img{
+    width: 70%;
+    height: 70%;
+    margin: auto;
+}
+.select{
+    position: absolute;
+    bottom: -15%;
+    width: 70%;
+    background-color: aqua;
+    border-radius: 50000px;
+}
+.select p{
+    margin: .1rem 0;
+}
+.btn_select{
+    background: url('../img/box-weapon.webp') center/cover no-repeat;
+    cursor: pointer;
+}
+.btn_select:active{
+    margin-top: 15px;
+}
+
+.btn_lock{
+    margin-top: 5%;
+    width: 130px;
+    height: 180px;
+}
+.cont_choose{
+    width: 20%;
+    height: 10vh;
+    position: absolute;
+    right: -10%;
+    bottom: 10%;
+    font-family: 'Irish Grover', cursive;
+}
+.btn_choose{
+    border: 0;
+    background-color: rgba(0, 0, 0, 0);
+    background: url('../img/button-img.webp') center/cover no-repeat;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+    font-family: 'Irish Grover', cursive;
+}
+.btn_choose p{
+    margin-bottom: 18%;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    font-size: large;
+}
